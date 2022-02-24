@@ -1,0 +1,129 @@
+/*resetando*/
+*{ margin: 0;padding: 0; font-size: 100%; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+
+nav, li{list-style: none;}
+
+a{text-decoration: none; cursor: pointer; opacity: 0.9;}
+
+a:hover{opacity: 1;}
+
+/*---header*/
+
+header{
+    width: 100%; position: absolute; top: 0; left: 0;
+    display: flex; justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+}
+header img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+}
+header nav{display: flex; color: rgb(78, 49, 55)}
+header a li{ color: rgb(78, 49, 55)}
+header li{ margin: 0 15px; margin-bottom: 0;}
+header li:first-child{margin-left: 0;}
+
+@media(max-width: 600px){
+    header{flex-direction: column;}
+    header img{margin-bottom: 10px;}
+}
+/*----fundo------*/
+.fundo{
+   
+    background-image: url(../img/flor.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    
+}
+.fundo h1{font-size: 3.2rem; margin-bottom: 15px; margin-top: 50px;
+text-align: center; font-family: 'Redressed', cursive;}
+.fundo h3{font-size: 2rem; margin-bottom: 15px; font-family: 'Dancing Script', cursive;}
+
+.fundo .btn{
+    background-color: white; border-radius: 10px; padding: 20px 50px; color: #191c03;
+    text-transform: uppercase;
+}
+@media (max-width: 600px){
+    .fundo h1{font-size: 2.5rem; margin-top: 50px;}
+    .fundo h3{font-size: 1.5rem;}
+}
+/*comnheca mais*/
+.conheca-mais{ display: flex; flex-direction: column; align-items: center; padding: 100px 50px;
+    color: palevioletred;   background-color: black;}
+.conheca-mais h3{font-size: 2rem; margin-bottom: 35px;text-align: center;}
+.conheca-mais p{max-width: 800px; margin-bottom: 35px;
+    text-align: center;}
+.conheca-mais hr{width: 300px; height: 3px;background-color: #cf1497; margin-bottom: 70px;
+        border: none;}
+
+.conheca-mais .grid{width: 100%; display: flex; flex-wrap: wrap;}
+.conheca-mais .grid li{height: 350px; padding: 20px; border-radius: 4px;
+background-clip: content-box; background-size: cover; background-position: center;}
+.conheca-mais .grid li.small{flex-basis: 40%;}
+.conheca-mais .grid li.large{flex-basis: 60%;}
+@media (max-width: 700px){
+    .conheca-mais .grid li.small, .conheca-mais .grid li.large{
+        flex-basis: 100%;
+    }}
+    /*Caracteristicas*/
+.caracteristicas{
+    display: flex;flex-direction: column; align-items: center;
+    padding: 100px 50px; color: white;
+    background-color: rgb(223,150, 190);
+}    
+.caracteristicas h3{
+    font-size: 2rem; margin-bottom: 35px;
+    text-align: center;
+}
+.caracteristicas p{
+    max-width: 800px; margin-bottom: 35px;
+    text-align: center;
+}
+.caracteristicas hr{width: 200px; height: 2px;background-color: white; margin-bottom: 70px; margin-top: 70px;
+border: none;
+}
+.caracteristicas .grid{display: flex; width: 100%;}
+.caracteristicas .grid li{text-align: center;padding: 30px;}
+.caracteristicas .grid li i{font-size: 3.5rem; color: antiquewhite; margin-bottom: 30px;}
+.caracteristicas .grid li h4{
+    font-size: 1.5rem; margin-bottom: 30px;
+    color: antiquewhite;}
+ @media (max-width: 850px){
+        .caracteristicas .grid{
+            flex-direction: column;
+        }
+        }
+        /**footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223,150, 190);
+    padding: 50px 0;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li{
+    margin-right: 30px;
+}
+footer ul li:last-child{
+    margin-right: 0;
+}
+footer ul li a{
+    color: antiquewhite;
+    font-size: 2.5rem;
+}
+footer p {
+    color: antiquewhite; text-align: center;
+}
