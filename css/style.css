@@ -48,10 +48,10 @@ header li:first-child{margin-left: 0;}
 text-align: center; font-family: 'Redressed', cursive;}
 .fundo h3{font-size: 2rem; margin-bottom: 15px; font-family: 'Dancing Script', cursive;}
 
-.fundo .btn{
+/*.fundo .btn{
     background-color: white; border-radius: 10px; padding: 20px 50px; color: #191c03;
     text-transform: uppercase;
-}
+}*/
 @media (max-width: 600px){
     .fundo h1{font-size: 2.5rem; margin-top: 50px;}
     .fundo h3{font-size: 1.5rem; margin-right: 20px;}
