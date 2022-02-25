@@ -53,8 +53,8 @@ text-align: center; font-family: 'Redressed', cursive;}
     text-transform: uppercase;
 }*/
 @media (max-width: 600px){
-    .fundo h1{font-size: 2.5rem; margin-top: 50px;}
-    .fundo h3{font-size: 1.5rem; margin-right: 20px;}
+    .fundo h1{font-size: 3.8rem; margin-top: 50px;}
+    .fundo h3{font-size: 3.0rem; margin-right: 20px;}
 }
 /*comnheca mais*/
 .conheca-mais{ display: flex; flex-direction: column; align-items: center; padding: 100px 50px;
